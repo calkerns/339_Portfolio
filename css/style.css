@@ -1,0 +1,23 @@
+.nav_links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.nav_links .nav_item {
+  background-color: #394e61;
+  padding: 20px;
+  text-align: center;
+  /* To keep insides centered */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_links .nav_item a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

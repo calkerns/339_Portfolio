@@ -1,0 +1,10 @@
+#home {
+  background-color: #9793e4;
+}
+
+#home a {
+  color: #20157c;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
