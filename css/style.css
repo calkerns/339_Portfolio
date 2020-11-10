@@ -76,4 +76,47 @@ main {
   margin-left: 15px;
 }
 
+#bounty_hunters {
+  margin: 20px 0px;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 15px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skip {
+  position: absolute;
+  top: -20px;
+  text-decoration: none;
+  color:#FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skip:focus {
+  transition: top;
+  transition-duration: 1s;
+  top: 0px;
+}
+
+main h1 {
+  color:#FFFFFF;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
+  margin: 10px;
+}
+
+/*Your code here again.*/ 
+/*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce) {
+  .skip:focus {
+    transition: none;
+  }
+}
+
 
