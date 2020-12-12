@@ -112,6 +112,13 @@
   grid-column: 2 / span 1;
 }
 
+/*Turn off parallax*/
+@media screen and (prefers-reduced-motion: reduce) {
+  .bounty-hunters-parallax {
+    background-attachment: initial;
+  }
+}
+
 @media all and (min-width: 800px) {
   #character-grid {
     grid-template-rows: repeat(4, 1fr);
